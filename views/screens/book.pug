@@ -1,0 +1,7 @@
+extends ../layouts/main.pug
+
+block content 
+    each data in bookList
+        h3 BOOK NAME: #{data.title}
+        h3 PRICE: #{data.price} 
+        hr
